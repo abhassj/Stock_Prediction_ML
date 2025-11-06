@@ -1,0 +1,26 @@
+# Virtual Environment and Python Cache
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.log
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook Checkpoints and Editor Files
+.ipynb_checkpoints/
+*~
+
+# Machine Learning & Model Files
+# Model weights are typically large and should not be tracked in Git.
+/models/*.h5
+/models/*.keras
+/models/*.pkl
+/models/*.pth
+
+# Data Directories
+# Raw and processed data should usually not be committed to GitHub.
+/data/raw/
+/data/processed/

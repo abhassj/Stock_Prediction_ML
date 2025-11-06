@@ -1,0 +1,17 @@
+# Core data handling and visualization
+numpy
+pandas
+matplotlib
+
+# Stock data retrieval
+yfinance
+
+# Machine Learning and Deep Learning stack
+scikit-learn
+tensorflow
+keras # Included for explicit clarity, although often bundled with tensorflow
+streamlit # For the web application interface
+
+
+A collaborator can install all necessary packages with a single command:
+pip install -r requirements.txt
